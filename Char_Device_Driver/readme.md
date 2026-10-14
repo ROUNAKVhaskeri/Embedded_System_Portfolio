@@ -31,8 +31,10 @@ The exact functionality of each file should be confirmed in the code.
 | reader / filler / config    |
 +--------------+--------------+
                |
-       Linux system calls
-   open / read / write / ioctl
++--------------v----------------+
+|      Linux system calls       |
+|  open / read / write / ioctl  |
++--------------+----------------+
                |
 +--------------v--------------+
 |       Linux VFS layer       |
@@ -43,8 +45,10 @@ The exact functionality of each file should be confirmed in the code.
 |       (kernel space)        |
 +--------------+--------------+
                |
-      Driver-managed data
-      or hardware interface
++--------------v--------------+
+|     Driver-managed data     |
+|     or hardware interface   |
++-----------------------------+
 ```
 
 This is a conceptual diagram; it does not claim that the driver controls physical hardware.
