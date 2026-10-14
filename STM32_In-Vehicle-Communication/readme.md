@@ -78,5 +78,3 @@ This project was developed collaboratively. The repository owner and collaborato
 GitHub: [ROUNAKVhaskeri](https://github.com/ROUNAKVhaskeri)
 
 ---
-
-This README describes the repository at a high level. Update it with verified board details, implementation specifics, test evidence, and collaborator credits before using it as a formal project portfolio.
