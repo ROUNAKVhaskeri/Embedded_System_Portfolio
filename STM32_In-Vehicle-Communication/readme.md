@@ -51,10 +51,10 @@ STM32_In-Vehicle-Communication/
 ## Getting Started
 
 1. Open the folder for the subproject you want to explore.
-2. Inspec*******ource files and any project configuration files.
+2. Inspect its source files and any project configuration files.
 3. Identify the target STM32 board, connected modules, pin assignments, and required libraries.
 4. Import the project into the IDE/toolchain expected by its configuration.
-5. Build the firmware, fla*******o the appropriate board, and test it with the required hardware.
+5. Build the firmware, flash it to the appropriate board, and test it with the required hardware.
 
 Because this repository contains multiple subprojects, there may not be one build procedure that applies to every folder. Add exact board models, wiring diagrams, dependencies, build steps, and test results to each subproject as you verify them.
 
