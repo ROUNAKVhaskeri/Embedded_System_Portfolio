@@ -1,6 +1,6 @@
 # STM32 In-Vehicle-Communication
 
-A collection of STM32-based embedded system****periments and peripheral interfacing projects, including CAN communication, sensor interfacing, and ESP32 integration.
+A collection of STM32-based embedded system experiments and peripheral interfacing projects, including CAN communication, sensor interfacing, and ESP32 integration.
 
 > **Note:** This repository contains multiple subprojects. Their exact hardware, firmware configuration, and implementation details may differ. Check each subproject's source code and configuration files before building or running it.
 
