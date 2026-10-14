@@ -1,0 +1,2 @@
+../Core/Src/ina_i2c.c:13:10:INA219_ReadReg	1
+../Core/Src/ina_i2c.c:19:19:INA219_WriteReg	1

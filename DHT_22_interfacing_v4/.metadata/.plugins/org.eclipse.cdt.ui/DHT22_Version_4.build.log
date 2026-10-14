@@ -1,0 +1,16 @@
+16:28:43 **** Incremental Build of configuration Debug for project DHT22_Version_4 ****
+make -j16 all 
+arm-none-eabi-gcc -o "DHT22_Version_4.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DHT22_Version_4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DHT22_Version_4.elf
+ 
+arm-none-eabi-size  DHT22_Version_4.elf 
+arm-none-eabi-objdump -h -S DHT22_Version_4.elf  > "DHT22_Version_4.list"
+   text	   data	    bss	    dec	    hex	filename
+  13756	     92	   2124	  15972	   3e64	DHT22_Version_4.elf
+Finished building: default.size.stdout
+ 
+Finished building: DHT22_Version_4.list
+ 
+
+16:28:44 Build Finished. 0 errors, 0 warnings. (took 458ms)
+

@@ -1,0 +1,5 @@
+../Core/Src/dht22.c:10:6:delay_us	2
+../Core/Src/dht22.c:16:6:Start_Signal	1
+../Core/Src/dht22.c:41:9:check_response	7
+../Core/Src/dht22.c:54:9:read_byte	6
+../Core/Src/dht22.c:70:6:send_uart	1

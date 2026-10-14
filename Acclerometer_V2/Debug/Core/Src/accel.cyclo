@@ -1,0 +1,5 @@
+../Core/Src/accel.c:13:13:SPI_Write	1
+../Core/Src/accel.c:19:13:SPI_Read	1
+../Core/Src/accel.c:27:6:LIS3DSH_Init	1
+../Core/Src/accel.c:31:6:LIS3DSH_WaitForDataAvail	2
+../Core/Src/accel.c:37:6:LIS3DSH_ReadDataArray	1

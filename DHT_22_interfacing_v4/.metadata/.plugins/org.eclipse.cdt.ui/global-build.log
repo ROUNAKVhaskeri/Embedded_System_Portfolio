@@ -1,0 +1,726 @@
+15:28:46 **** Clean-only build of configuration Debug for project DHT22_Version_4 ****
+make -j16 clean 
+rm -rf ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.su ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.cyclo ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.d ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.su
+rm -rf ./Core/Startup/startup_stm32f407vgtx.d ./Core/Startup/startup_stm32f407vgtx.o
+rm -rf ./Core/Src/main.cyclo ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/main.su ./Core/Src/stm32f4xx_hal_msp.cyclo ./Core/Src/stm32f4xx_hal_msp.d ./Core/Src/stm32f4xx_hal_msp.o ./Core/Src/stm32f4xx_hal_msp.su ./Core/Src/stm32f4xx_it.cyclo ./Core/Src/stm32f4xx_it.d ./Core/Src/stm32f4xx_it.o ./Core/Src/stm32f4xx_it.su ./Core/Src/syscalls.cyclo ./Core/Src/syscalls.d ./Core/Src/syscalls.o ./Core/Src/syscalls.su ./Core/Src/sysmem.cyclo ./Core/Src/sysmem.d ./Core/Src/sysmem.o ./Core/Src/sysmem.su ./Core/Src/system_stm32f4xx.cyclo ./Core/Src/system_stm32f4xx.d ./Core/Src/system_stm32f4xx.o ./Core/Src/system_stm32f4xx.su
+rm -rf DHT22_Version_4.elf DHT22_Version_4.list DHT22_Version_4.map default.size.stdout
+ 
+15:28:48 **** Build of configuration Debug for project DHT22_Version_4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o"
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f407vgtx.d" -MT"Core/Startup/startup_stm32f407vgtx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32f407vgtx.o" "../Core/Startup/startup_stm32f407vgtx.s"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f4xx.d" -MT"Core/Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32f4xx.o"
+../Core/Src/main.c: In function 'check_response':
+../Core/Src/main.c:112:13: warning: implicit declaration of function 'send_uart' [-Wimplicit-function-declaration]
+  112 |             send_uart("Sensor did not pull line LOW.\r\n");
+      |             ^~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:156:6: warning: conflicting types for 'send_uart'; have 'void(char *)'
+  156 | void send_uart(char *str) {
+      |      ^~~~~~~~~
+../Core/Src/main.c:112:13: note: previous implicit declaration of 'send_uart' with type 'void(char *)'
+  112 |             send_uart("Sensor did not pull line LOW.\r\n");
+      |             ^~~~~~~~~
+arm-none-eabi-gcc -o "DHT22_Version_4.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DHT22_Version_4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DHT22_Version_4.elf
+ 
+arm-none-eabi-size  DHT22_Version_4.elf 
+arm-none-eabi-objdump -h -S DHT22_Version_4.elf  > "DHT22_Version_4.list"
+   text	   data	    bss	    dec	    hex	filename
+  14124	     92	   2124	  16340	   3fd4	DHT22_Version_4.elf
+Finished building: default.size.stdout
+ 
+Finished building: DHT22_Version_4.list
+ 
+15:29:38 **** Incremental Build of configuration Debug for project DHT22_Version_4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DHT22_Version_4.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DHT22_Version_4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DHT22_Version_4.elf
+ 
+arm-none-eabi-size  DHT22_Version_4.elf 
+arm-none-eabi-objdump -h -S DHT22_Version_4.elf  > "DHT22_Version_4.list"
+   text	   data	    bss	    dec	    hex	filename
+  14124	     92	   2124	  16340	   3fd4	DHT22_Version_4.elf
+Finished building: default.size.stdout
+ 
+Finished building: DHT22_Version_4.list
+ 
+15:30:40 **** Incremental Build of configuration Debug for project DHT22_Version_4 ****
+make -j16 all 
+arm-none-eabi-size  DHT22_Version_4.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14124	     92	   2124	  16340	   3fd4	DHT22_Version_4.elf
+Finished building: default.size.stdout
+ 
+15:35:48 **** Incremental Build of configuration Debug for project DHT22_Version_4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DHT22_Version_4.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DHT22_Version_4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DHT22_Version_4.elf
+ 
+arm-none-eabi-size  DHT22_Version_4.elf 
+arm-none-eabi-objdump -h -S DHT22_Version_4.elf  > "DHT22_Version_4.list"
+   text	   data	    bss	    dec	    hex	filename
+  14104	     92	   2124	  16320	   3fc0	DHT22_Version_4.elf
+Finished building: default.size.stdout
+ 
+Finished building: DHT22_Version_4.list
+ 
+15:38:13 **** Incremental Build of configuration Debug for project DHT22_Version_4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DHT22_Version_4.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DHT22_Version_4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DHT22_Version_4.elf
+ 
+arm-none-eabi-size  DHT22_Version_4.elf 
+arm-none-eabi-objdump -h -S DHT22_Version_4.elf  > "DHT22_Version_4.list"
+   text	   data	    bss	    dec	    hex	filename
+  14108	     92	   2124	  16324	   3fc4	DHT22_Version_4.elf
+Finished building: default.size.stdout
+ 
+Finished building: DHT22_Version_4.list
+ 
+15:38:40 **** Incremental Build of configuration Debug for project DHT22_Version_4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DHT22_Version_4.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DHT22_Version_4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DHT22_Version_4.elf
+ 
+arm-none-eabi-size  DHT22_Version_4.elf 
+arm-none-eabi-objdump -h -S DHT22_Version_4.elf  > "DHT22_Version_4.list"
+   text	   data	    bss	    dec	    hex	filename
+  14104	     92	   2124	  16320	   3fc0	DHT22_Version_4.elf
+Finished building: default.size.stdout
+ 
+Finished building: DHT22_Version_4.list
+ 
+15:39:12 **** Incremental Build of configuration Debug for project DHT22_Version_4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DHT22_Version_4.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DHT22_Version_4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DHT22_Version_4.elf
+ 
+arm-none-eabi-size  DHT22_Version_4.elf 
+arm-none-eabi-objdump -h -S DHT22_Version_4.elf  > "DHT22_Version_4.list"
+   text	   data	    bss	    dec	    hex	filename
+  14104	     92	   2124	  16320	   3fc0	DHT22_Version_4.elf
+Finished building: default.size.stdout
+ 
+Finished building: DHT22_Version_4.list
+ 
+15:39:47 **** Incremental Build of configuration Debug for project DHT22_Version_4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DHT22_Version_4.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DHT22_Version_4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DHT22_Version_4.elf
+ 
+arm-none-eabi-size  DHT22_Version_4.elf 
+arm-none-eabi-objdump -h -S DHT22_Version_4.elf  > "DHT22_Version_4.list"
+   text	   data	    bss	    dec	    hex	filename
+  14112	     92	   2124	  16328	   3fc8	DHT22_Version_4.elf
+Finished building: default.size.stdout
+ 
+Finished building: DHT22_Version_4.list
+ 
+15:40:17 **** Incremental Build of configuration Debug for project DHT22_Version_4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DHT22_Version_4.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DHT22_Version_4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DHT22_Version_4.elf
+ 
+arm-none-eabi-size  DHT22_Version_4.elf 
+arm-none-eabi-objdump -h -S DHT22_Version_4.elf  > "DHT22_Version_4.list"
+   text	   data	    bss	    dec	    hex	filename
+  14104	     92	   2124	  16320	   3fc0	DHT22_Version_4.elf
+Finished building: default.size.stdout
+ 
+Finished building: DHT22_Version_4.list
+ 
+15:41:27 **** Incremental Build of configuration Debug for project DHT22_Version_4 ****
+make -j16 all 
+arm-none-eabi-size  DHT22_Version_4.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14104	     92	   2124	  16320	   3fc0	DHT22_Version_4.elf
+Finished building: default.size.stdout
+ 
+15:41:31 **** Incremental Build of configuration Debug for project DHT22_Version_4 ****
+make -j16 all 
+arm-none-eabi-size  DHT22_Version_4.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14104	     92	   2124	  16320	   3fc0	DHT22_Version_4.elf
+Finished building: default.size.stdout
+ 
+15:42:10 **** Incremental Build of configuration Debug for project DHT22_Version_4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DHT22_Version_4.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DHT22_Version_4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DHT22_Version_4.elf
+ 
+arm-none-eabi-size  DHT22_Version_4.elf 
+arm-none-eabi-objdump -h -S DHT22_Version_4.elf  > "DHT22_Version_4.list"
+   text	   data	    bss	    dec	    hex	filename
+  14072	     92	   2124	  16288	   3fa0	DHT22_Version_4.elf
+Finished building: default.size.stdout
+ 
+Finished building: DHT22_Version_4.list
+ 
+15:43:21 **** Incremental Build of configuration Debug for project DHT22_Version_4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DHT22_Version_4.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DHT22_Version_4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DHT22_Version_4.elf
+ 
+arm-none-eabi-size  DHT22_Version_4.elf 
+arm-none-eabi-objdump -h -S DHT22_Version_4.elf  > "DHT22_Version_4.list"
+   text	   data	    bss	    dec	    hex	filename
+  14104	     92	   2124	  16320	   3fc0	DHT22_Version_4.elf
+Finished building: default.size.stdout
+ 
+Finished building: DHT22_Version_4.list
+ 
+15:53:00 **** Incremental Build of configuration Debug for project DHT22_Version_4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'Start_Signal':
+../Core/Src/main.c:88:5: error: 'GPIO_InitStruct' undeclared (first use in this function)
+   88 |     GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+      |     ^~~~~~~~~~~~~~~
+../Core/Src/main.c:88:5: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+15:53:03 **** Incremental Build of configuration Debug for project DHT22_Version_4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'Start_Signal':
+../Core/Src/main.c:88:5: error: 'GPIO_InitStruct' undeclared (first use in this function)
+   88 |     GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+      |     ^~~~~~~~~~~~~~~
+../Core/Src/main.c:88:5: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+15:55:58 **** Incremental Build of configuration Debug for project DHT22_Version_4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DHT22_Version_4.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DHT22_Version_4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DHT22_Version_4.elf
+ 
+arm-none-eabi-size  DHT22_Version_4.elf 
+arm-none-eabi-objdump -h -S DHT22_Version_4.elf  > "DHT22_Version_4.list"
+   text	   data	    bss	    dec	    hex	filename
+  14072	     92	   2124	  16288	   3fa0	DHT22_Version_4.elf
+Finished building: default.size.stdout
+ 
+Finished building: DHT22_Version_4.list
+ 
+15:56:13 **** Incremental Build of configuration Debug for project DHT22_Version_4 ****
+make -j16 all 
+arm-none-eabi-size  DHT22_Version_4.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14072	     92	   2124	  16288	   3fa0	DHT22_Version_4.elf
+Finished building: default.size.stdout
+ 
+15:57:54 **** Incremental Build of configuration Debug for project DHT22_Version_4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DHT22_Version_4.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DHT22_Version_4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DHT22_Version_4.elf
+ 
+arm-none-eabi-size  DHT22_Version_4.elf 
+arm-none-eabi-objdump -h -S DHT22_Version_4.elf  > "DHT22_Version_4.list"
+   text	   data	    bss	    dec	    hex	filename
+  14072	     92	   2124	  16288	   3fa0	DHT22_Version_4.elf
+Finished building: default.size.stdout
+ 
+Finished building: DHT22_Version_4.list
+ 
+15:58:35 **** Incremental Build of configuration Debug for project DHT22_Version_4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DHT22_Version_4.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DHT22_Version_4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DHT22_Version_4.elf
+ 
+arm-none-eabi-size  DHT22_Version_4.elf 
+arm-none-eabi-objdump -h -S DHT22_Version_4.elf  > "DHT22_Version_4.list"
+   text	   data	    bss	    dec	    hex	filename
+  14072	     92	   2124	  16288	   3fa0	DHT22_Version_4.elf
+Finished building: default.size.stdout
+ 
+Finished building: DHT22_Version_4.list
+ 
+16:00:39 **** Incremental Build of configuration Debug for project DHT22_Version_4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DHT22_Version_4.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DHT22_Version_4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DHT22_Version_4.elf
+ 
+arm-none-eabi-size  DHT22_Version_4.elf 
+arm-none-eabi-objdump -h -S DHT22_Version_4.elf  > "DHT22_Version_4.list"
+   text	   data	    bss	    dec	    hex	filename
+  14072	     92	   2124	  16288	   3fa0	DHT22_Version_4.elf
+Finished building: default.size.stdout
+ 
+Finished building: DHT22_Version_4.list
+ 
+16:05:30 **** Incremental Build of configuration Debug for project DHT22_Version_4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:407,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:1:
+../Core/Src/main.c: In function 'delay_us':
+../Core/Src/main.c:18:28: error: 'htim1' undeclared (first use in this function)
+   18 |     __HAL_TIM_SET_COUNTER(&htim1, 0);
+      |                            ^~~~~
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:1282:59: note: in definition of macro '__HAL_TIM_SET_COUNTER'
+ 1282 | #define __HAL_TIM_SET_COUNTER(__HANDLE__, __COUNTER__)  ((__HANDLE__)->Instance->CNT = (__COUNTER__))
+      |                                                           ^~~~~~~~~~
+../Core/Src/main.c:18:28: note: each undeclared identifier is reported only once for each function it appears in
+   18 |     __HAL_TIM_SET_COUNTER(&htim1, 0);
+      |                            ^~~~~
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:1282:59: note: in definition of macro '__HAL_TIM_SET_COUNTER'
+ 1282 | #define __HAL_TIM_SET_COUNTER(__HANDLE__, __COUNTER__)  ((__HANDLE__)->Instance->CNT = (__COUNTER__))
+      |                                                           ^~~~~~~~~~
+../Core/Src/main.c: In function 'check_response':
+../Core/Src/main.c:44:28: error: 'htim1' undeclared (first use in this function)
+   44 |     __HAL_TIM_SET_COUNTER(&htim1, 0);
+      |                            ^~~~~
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:1282:59: note: in definition of macro '__HAL_TIM_SET_COUNTER'
+ 1282 | #define __HAL_TIM_SET_COUNTER(__HANDLE__, __COUNTER__)  ((__HANDLE__)->Instance->CNT = (__COUNTER__))
+      |                                                           ^~~~~~~~~~
+../Core/Src/main.c: In function 'read_byte':
+../Core/Src/main.c:59:32: error: 'htim1' undeclared (first use in this function)
+   59 |         __HAL_TIM_SET_COUNTER(&htim1, 0);
+      |                                ^~~~~
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:1282:59: note: in definition of macro '__HAL_TIM_SET_COUNTER'
+ 1282 | #define __HAL_TIM_SET_COUNTER(__HANDLE__, __COUNTER__)  ((__HANDLE__)->Instance->CNT = (__COUNTER__))
+      |                                                           ^~~~~~~~~~
+../Core/Src/main.c: In function 'send_uart':
+../Core/Src/main.c:70:24: error: 'huart2' undeclared (first use in this function)
+   70 |     HAL_UART_Transmit(&huart2, (uint8_t *)str, strlen(str), HAL_MAX_DELAY);
+      |                        ^~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:79:5: warning: implicit declaration of function 'SystemClock_Config'; did you mean 'SysTick_Config'? [-Wimplicit-function-declaration]
+   79 |     SystemClock_Config();
+      |     ^~~~~~~~~~~~~~~~~~
+      |     SysTick_Config
+../Core/Src/main.c:80:5: warning: implicit declaration of function 'MX_GPIO_Init'; did you mean 'HAL_GPIO_Init'? [-Wimplicit-function-declaration]
+   80 |     MX_GPIO_Init();
+      |     ^~~~~~~~~~~~
+      |     HAL_GPIO_Init
+../Core/Src/main.c:81:5: warning: implicit declaration of function 'MX_TIM1_Init' [-Wimplicit-function-declaration]
+   81 |     MX_TIM1_Init();
+      |     ^~~~~~~~~~~~
+../Core/Src/main.c:82:5: warning: implicit declaration of function 'MX_USART1_UART_Init' [-Wimplicit-function-declaration]
+   82 |     MX_USART1_UART_Init();
+      |     ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:83:5: warning: implicit declaration of function 'MX_USART2_UART_Init' [-Wimplicit-function-declaration]
+   83 |     MX_USART2_UART_Init();
+      |     ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:85:25: error: 'htim1' undeclared (first use in this function)
+   85 |     HAL_TIM_Base_Start(&htim1);
+      |                         ^~~~~
+../Core/Src/main.c:103:22: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  103 |         if (checksum != (RH_Byte1 + RH_Byte2 + T_Byte1 + T_Byte2) & 0xFF) {
+      |             ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:121:6: warning: conflicting types for 'SystemClock_Config'; have 'void(void)'
+  121 | void SystemClock_Config(void)
+      |      ^~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:79:5: note: previous implicit declaration of 'SystemClock_Config' with type 'void(void)'
+   79 |     SystemClock_Config();
+      |     ^~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:168:13: warning: conflicting types for 'MX_TIM1_Init'; have 'void(void)'
+  168 | static void MX_TIM1_Init(void)
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:168:13: error: static declaration of 'MX_TIM1_Init' follows non-static declaration
+../Core/Src/main.c:81:5: note: previous implicit declaration of 'MX_TIM1_Init' with type 'void(void)'
+   81 |     MX_TIM1_Init();
+      |     ^~~~~~~~~~~~
+../Core/Src/main.c: In function 'MX_TIM1_Init':
+../Core/Src/main.c:181:3: error: 'htim1' undeclared (first use in this function)
+  181 |   htim1.Instance = TIM1;
+      |   ^~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:214:13: warning: conflicting types for 'MX_USART1_UART_Init'; have 'void(void)'
+  214 | static void MX_USART1_UART_Init(void)
+      |             ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:214:13: error: static declaration of 'MX_USART1_UART_Init' follows non-static declaration
+../Core/Src/main.c:82:5: note: previous implicit declaration of 'MX_USART1_UART_Init' with type 'void(void)'
+   82 |     MX_USART1_UART_Init();
+      |     ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'MX_USART1_UART_Init':
+../Core/Src/main.c:224:3: error: 'huart1' undeclared (first use in this function)
+  224 |   huart1.Instance = USART1;
+      |   ^~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:247:13: warning: conflicting types for 'MX_USART2_UART_Init'; have 'void(void)'
+  247 | static void MX_USART2_UART_Init(void)
+      |             ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:247:13: error: static declaration of 'MX_USART2_UART_Init' follows non-static declaration
+../Core/Src/main.c:83:5: note: previous implicit declaration of 'MX_USART2_UART_Init' with type 'void(void)'
+   83 |     MX_USART2_UART_Init();
+      |     ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'MX_USART2_UART_Init':
+../Core/Src/main.c:257:3: error: 'huart2' undeclared (first use in this function)
+  257 |   huart2.Instance = USART2;
+      |   ^~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:280:13: warning: conflicting types for 'MX_GPIO_Init'; have 'void(void)'
+  280 | static void MX_GPIO_Init(void)
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:280:13: error: static declaration of 'MX_GPIO_Init' follows non-static declaration
+../Core/Src/main.c:80:5: note: previous implicit declaration of 'MX_GPIO_Init' with type 'void(void)'
+   80 |     MX_GPIO_Init();
+      |     ^~~~~~~~~~~~
+../Core/Src/main.c:280:13: warning: 'MX_GPIO_Init' defined but not used [-Wunused-function]
+  280 | static void MX_GPIO_Init(void)
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:247:13: warning: 'MX_USART2_UART_Init' defined but not used [-Wunused-function]
+  247 | static void MX_USART2_UART_Init(void)
+      |             ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:214:13: warning: 'MX_USART1_UART_Init' defined but not used [-Wunused-function]
+  214 | static void MX_USART1_UART_Init(void)
+      |             ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:168:13: warning: 'MX_TIM1_Init' defined but not used [-Wunused-function]
+  168 | static void MX_TIM1_Init(void)
+      |             ^~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+16:05:57 **** Incremental Build of configuration Debug for project DHT22_Version_4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DHT22_Version_4.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DHT22_Version_4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DHT22_Version_4.elf
+ 
+arm-none-eabi-size  DHT22_Version_4.elf 
+arm-none-eabi-objdump -h -S DHT22_Version_4.elf  > "DHT22_Version_4.list"
+   text	   data	    bss	    dec	    hex	filename
+  14072	     92	   2124	  16288	   3fa0	DHT22_Version_4.elf
+Finished building: default.size.stdout
+ 
+Finished building: DHT22_Version_4.list
+ 
+16:07:24 **** Incremental Build of configuration Debug for project DHT22_Version_4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:163:22: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  163 |         if (checksum != (RH_Byte1 + RH_Byte2 + T_Byte1 + T_Byte2) & 0xFF) {
+      |             ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "DHT22_Version_4.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DHT22_Version_4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DHT22_Version_4.elf
+ 
+arm-none-eabi-size  DHT22_Version_4.elf 
+arm-none-eabi-objdump -h -S DHT22_Version_4.elf  > "DHT22_Version_4.list"
+   text	   data	    bss	    dec	    hex	filename
+  13936	     92	   2124	  16152	   3f18	DHT22_Version_4.elf
+Finished building: default.size.stdout
+ 
+Finished building: DHT22_Version_4.list
+ 
+16:08:12 **** Incremental Build of configuration Debug for project DHT22_Version_4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DHT22_Version_4.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DHT22_Version_4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DHT22_Version_4.elf
+ 
+arm-none-eabi-size  DHT22_Version_4.elf 
+arm-none-eabi-objdump -h -S DHT22_Version_4.elf  > "DHT22_Version_4.list"
+   text	   data	    bss	    dec	    hex	filename
+  13940	     92	   2124	  16156	   3f1c	DHT22_Version_4.elf
+Finished building: default.size.stdout
+ 
+Finished building: DHT22_Version_4.list
+ 
+16:08:31 **** Incremental Build of configuration Debug for project DHT22_Version_4 ****
+make -j16 all 
+arm-none-eabi-size  DHT22_Version_4.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13940	     92	   2124	  16156	   3f1c	DHT22_Version_4.elf
+Finished building: default.size.stdout
+ 
+16:09:57 **** Incremental Build of configuration Debug for project DHT22_Version_4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DHT22_Version_4.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DHT22_Version_4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DHT22_Version_4.elf
+ 
+arm-none-eabi-size  DHT22_Version_4.elf 
+arm-none-eabi-objdump -h -S DHT22_Version_4.elf  > "DHT22_Version_4.list"
+   text	   data	    bss	    dec	    hex	filename
+  13940	     92	   2124	  16156	   3f1c	DHT22_Version_4.elf
+Finished building: default.size.stdout
+ 
+Finished building: DHT22_Version_4.list
+ 
+16:13:58 **** Incremental Build of configuration Debug for project DHT22_Version_4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f4xx.d" -MT"Core/Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32f4xx.o"
+arm-none-eabi-gcc -o "DHT22_Version_4.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DHT22_Version_4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DHT22_Version_4.elf
+ 
+arm-none-eabi-size  DHT22_Version_4.elf 
+arm-none-eabi-objdump -h -S DHT22_Version_4.elf  > "DHT22_Version_4.list"
+   text	   data	    bss	    dec	    hex	filename
+  14068	     92	   2124	  16284	   3f9c	DHT22_Version_4.elf
+Finished building: default.size.stdout
+ 
+Finished building: DHT22_Version_4.list
+ 
+16:16:02 **** Incremental Build of configuration Debug for project DHT22_Version_4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'send_uart':
+../Core/Src/main.c:139:40: error: expected ')' before ';' token
+  139 |   HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_14;
+      |                     ~                  ^
+../Core/Src/main.c:140:18: error: expected ';' before '}' token
+  140 |   HAL_Delay(500);
+      |                  ^
+      |                  ;
+  141 | 
+  142 | }
+      | ~                 
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+16:16:21 **** Incremental Build of configuration Debug for project DHT22_Version_4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DHT22_Version_4.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DHT22_Version_4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DHT22_Version_4.elf
+ 
+arm-none-eabi-size  DHT22_Version_4.elf 
+arm-none-eabi-objdump -h -S DHT22_Version_4.elf  > "DHT22_Version_4.list"
+   text	   data	    bss	    dec	    hex	filename
+  14200	     92	   2124	  16416	   4020	DHT22_Version_4.elf
+Finished building: default.size.stdout
+ 
+Finished building: DHT22_Version_4.list
+ 
+16:17:32 **** Incremental Build of configuration Debug for project DHT22_Version_4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DHT22_Version_4.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DHT22_Version_4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DHT22_Version_4.elf
+ 
+arm-none-eabi-size  DHT22_Version_4.elf 
+arm-none-eabi-objdump -h -S DHT22_Version_4.elf  > "DHT22_Version_4.list"
+   text	   data	    bss	    dec	    hex	filename
+  14192	     92	   2124	  16408	   4018	DHT22_Version_4.elf
+Finished building: default.size.stdout
+ 
+Finished building: DHT22_Version_4.list
+ 
+16:18:28 **** Incremental Build of configuration Debug for project DHT22_Version_4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DHT22_Version_4.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DHT22_Version_4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DHT22_Version_4.elf
+ 
+arm-none-eabi-size  DHT22_Version_4.elf 
+arm-none-eabi-objdump -h -S DHT22_Version_4.elf  > "DHT22_Version_4.list"
+   text	   data	    bss	    dec	    hex	filename
+  14200	     92	   2124	  16416	   4020	DHT22_Version_4.elf
+Finished building: default.size.stdout
+ 
+Finished building: DHT22_Version_4.list
+ 
+16:19:17 **** Incremental Build of configuration Debug for project DHT22_Version_4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DHT22_Version_4.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DHT22_Version_4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DHT22_Version_4.elf
+ 
+arm-none-eabi-size  DHT22_Version_4.elf 
+arm-none-eabi-objdump -h -S DHT22_Version_4.elf  > "DHT22_Version_4.list"
+   text	   data	    bss	    dec	    hex	filename
+  13940	     92	   2124	  16156	   3f1c	DHT22_Version_4.elf
+Finished building: default.size.stdout
+ 
+Finished building: DHT22_Version_4.list
+ 
+16:19:21 **** Incremental Build of configuration Debug for project DHT22_Version_4 ****
+make -j16 all 
+arm-none-eabi-size  DHT22_Version_4.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13940	     92	   2124	  16156	   3f1c	DHT22_Version_4.elf
+Finished building: default.size.stdout
+ 
+16:21:27 **** Incremental Build of configuration Debug for project DHT22_Version_4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DHT22_Version_4.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DHT22_Version_4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DHT22_Version_4.elf
+ 
+arm-none-eabi-size  DHT22_Version_4.elf 
+arm-none-eabi-objdump -h -S DHT22_Version_4.elf  > "DHT22_Version_4.list"
+   text	   data	    bss	    dec	    hex	filename
+  13932	     92	   2124	  16148	   3f14	DHT22_Version_4.elf
+Finished building: default.size.stdout
+ 
+Finished building: DHT22_Version_4.list
+ 
+16:22:25 **** Incremental Build of configuration Debug for project DHT22_Version_4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "DHT22_Version_4.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DHT22_Version_4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DHT22_Version_4.elf
+ 
+arm-none-eabi-size  DHT22_Version_4.elf 
+arm-none-eabi-objdump -h -S DHT22_Version_4.elf  > "DHT22_Version_4.list"
+   text	   data	    bss	    dec	    hex	filename
+  13936	     92	   2124	  16152	   3f18	DHT22_Version_4.elf
+Finished building: default.size.stdout
+ 
+Finished building: DHT22_Version_4.list
+ 
+16:23:03 **** Incremental Build of configuration Debug for project DHT22_Version_4 ****
+make -j16 all 
+arm-none-eabi-size  DHT22_Version_4.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13936	     92	   2124	  16152	   3f18	DHT22_Version_4.elf
+Finished building: default.size.stdout
+ 
+16:28:17 **** Incremental Build of configuration Debug for project DHT22_Version_4 ****
+make -j16 all 
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f4xx.d" -MT"Core/Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32f4xx.o"
+arm-none-eabi-gcc "../Core/Inc/temp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Inc/temp.d" -MT"Core/Inc/temp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Inc/temp.o"
+arm-none-eabi-gcc -o "DHT22_Version_4.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DHT22_Version_4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Src/main.c:50: multiple definition of `htim1'; ./Core/Inc/temp.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Inc/temp.c:50: first defined here
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Src/main.c:52: multiple definition of `huart1'; ./Core/Inc/temp.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Inc/temp.c:52: first defined here
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Src/main.c:53: multiple definition of `huart2'; ./Core/Inc/temp.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Inc/temp.c:53: first defined here
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Src/main.c:57: multiple definition of `message1'; ./Core/Inc/temp.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Inc/temp.c:57: first defined here
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Src/main.c:58: multiple definition of `message2'; ./Core/Inc/temp.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Inc/temp.c:58: first defined here
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Src/main.c:59: multiple definition of `TOUT'; ./Core/Inc/temp.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Inc/temp.c:59: first defined here
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Src/main.c:59: multiple definition of `checksum'; ./Core/Inc/temp.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Inc/temp.c:59: first defined here
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Src/main.c:59: multiple definition of `i'; ./Core/Inc/temp.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Inc/temp.c:59: first defined here
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Src/main.c:60: multiple definition of `T_Byte1'; ./Core/Inc/temp.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Inc/temp.c:60: first defined here
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Src/main.c:60: multiple definition of `T_Byte2'; ./Core/Inc/temp.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Inc/temp.c:60: first defined here
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Src/main.c:60: multiple definition of `RH_Byte1'; ./Core/Inc/temp.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Inc/temp.c:60: first defined here
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Src/main.c:60: multiple definition of `RH_Byte2'; ./Core/Inc/temp.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Inc/temp.c:60: first defined here
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o: in function `delay_us':
+/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Src/main.c:77: multiple definition of `delay_us'; ./Core/Inc/temp.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Inc/temp.c:77: first defined here
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o: in function `Start_Signal':
+/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Src/main.c:82: multiple definition of `Start_Signal'; ./Core/Inc/temp.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Inc/temp.c:82: first defined here
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o: in function `check_response':
+/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Src/main.c:103: multiple definition of `check_response'; ./Core/Inc/temp.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Inc/temp.c:103: first defined here
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o: in function `read_byte':
+/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Src/main.c:115: multiple definition of `read_byte'; ./Core/Inc/temp.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Inc/temp.c:115: first defined here
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o: in function `send_uart':
+/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Src/main.c:129: multiple definition of `send_uart'; ./Core/Inc/temp.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Inc/temp.c:129: first defined here
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o: in function `main':
+/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Src/main.c:140: multiple definition of `main'; ./Core/Inc/temp.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Inc/temp.c:133: first defined here
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o: in function `SystemClock_Config':
+/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Src/main.c:214: multiple definition of `SystemClock_Config'; ./Core/Inc/temp.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Inc/temp.c:189: first defined here
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o: in function `Error_Handler':
+/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Src/main.c:415: multiple definition of `Error_Handler'; ./Core/Inc/temp.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Inc/temp.c:365: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [makefile:65: DHT22_Version_4.elf] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+16:28:20 **** Incremental Build of configuration Debug for project DHT22_Version_4 ****
+make -j16 all 
+arm-none-eabi-gcc -o "DHT22_Version_4.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DHT22_Version_4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Src/main.c:50: multiple definition of `htim1'; ./Core/Inc/temp.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Inc/temp.c:50: first defined here
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Src/main.c:52: multiple definition of `huart1'; ./Core/Inc/temp.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Inc/temp.c:52: first defined here
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Src/main.c:53: multiple definition of `huart2'; ./Core/Inc/temp.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Inc/temp.c:53: first defined here
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Src/main.c:57: multiple definition of `message1'; ./Core/Inc/temp.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Inc/temp.c:57: first defined here
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Src/main.c:58: multiple definition of `message2'; ./Core/Inc/temp.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Inc/temp.c:58: first defined here
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Src/main.c:59: multiple definition of `TOUT'; ./Core/Inc/temp.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Inc/temp.c:59: first defined here
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Src/main.c:59: multiple definition of `checksum'; ./Core/Inc/temp.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Inc/temp.c:59: first defined here
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Src/main.c:59: multiple definition of `i'; ./Core/Inc/temp.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Inc/temp.c:59: first defined here
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Src/main.c:60: multiple definition of `T_Byte1'; ./Core/Inc/temp.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Inc/temp.c:60: first defined here
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Src/main.c:60: multiple definition of `T_Byte2'; ./Core/Inc/temp.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Inc/temp.c:60: first defined here
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Src/main.c:60: multiple definition of `RH_Byte1'; ./Core/Inc/temp.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Inc/temp.c:60: first defined here
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Src/main.c:60: multiple definition of `RH_Byte2'; ./Core/Inc/temp.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Inc/temp.c:60: first defined here
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o: in function `delay_us':
+/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Src/main.c:77: multiple definition of `delay_us'; ./Core/Inc/temp.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Inc/temp.c:77: first defined here
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o: in function `Start_Signal':
+/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Src/main.c:82: multiple definition of `Start_Signal'; ./Core/Inc/temp.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Inc/temp.c:82: first defined here
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o: in function `check_response':
+/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Src/main.c:103: multiple definition of `check_response'; ./Core/Inc/temp.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Inc/temp.c:103: first defined here
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o: in function `read_byte':
+/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Src/main.c:115: multiple definition of `read_byte'; ./Core/Inc/temp.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Inc/temp.c:115: first defined here
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o: in function `send_uart':
+/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Src/main.c:129: multiple definition of `send_uart'; ./Core/Inc/temp.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Inc/temp.c:129: first defined here
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o: in function `main':
+/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Src/main.c:140: multiple definition of `main'; ./Core/Inc/temp.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Inc/temp.c:133: first defined here
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o: in function `SystemClock_Config':
+/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Src/main.c:214: multiple definition of `SystemClock_Config'; ./Core/Inc/temp.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Inc/temp.c:189: first defined here
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o: in function `Error_Handler':
+/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Src/main.c:415: multiple definition of `Error_Handler'; ./Core/Inc/temp.o:/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/Debug/../Core/Inc/temp.c:365: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [makefile:65: DHT22_Version_4.elf] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+16:28:43 **** Incremental Build of configuration Debug for project DHT22_Version_4 ****
+make -j16 all 
+arm-none-eabi-gcc -o "DHT22_Version_4.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/sunbeam/Desktop/86804_Gits/Project/DHT_22_interfacing_v4/DHT22_Version_4/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DHT22_Version_4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DHT22_Version_4.elf
+ 
+arm-none-eabi-size  DHT22_Version_4.elf 
+arm-none-eabi-objdump -h -S DHT22_Version_4.elf  > "DHT22_Version_4.list"
+   text	   data	    bss	    dec	    hex	filename
+  13756	     92	   2124	  15972	   3e64	DHT22_Version_4.elf
+Finished building: default.size.stdout
+ 
+Finished building: DHT22_Version_4.list
+ 

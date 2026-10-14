@@ -1,0 +1,4 @@
+../Core/Src/ina.c:15:19:INA219_init	1
+../Core/Src/ina.c:22:7:INA219_GetBusVoltage	1
+../Core/Src/ina.c:30:7:INA219_GetShuntVoltage	1
+../Core/Src/ina.c:37:7:INA219_GetCurrent	1

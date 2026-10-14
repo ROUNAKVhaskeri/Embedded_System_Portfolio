@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;DHT22_Version_4/Core/Inc/main.txt&apos; to &apos;temp.c&apos;" description="Rename resource &apos;main.txt&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Inc/main.txt" name="temp.c" stamp="1735383394876" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;DHT22_Version_4/Core/Inc/temp.c&apos; to &apos;temp.txt&apos;" description="Rename resource &apos;temp.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Inc/temp.c" name="temp.txt" stamp="1735383519983" updateReferences="true"/>
+</session>

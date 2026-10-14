@@ -1,0 +1,7 @@
+../Core/Src/ina219.c:12:6:INA219_Calibrate	1
+../Core/Src/ina219.c:16:19:INA219_init	2
+../Core/Src/ina219.c:27:7:INA219_GetBusVoltage	1
+../Core/Src/ina219.c:32:7:INA219_GetShuntVoltage	1
+../Core/Src/ina219.c:37:7:INA219_GetCurrent	1
+../Core/Src/ina219.c:43:10:INA219_ReadReg	1
+../Core/Src/ina219.c:49:19:INA219_WriteReg	1
